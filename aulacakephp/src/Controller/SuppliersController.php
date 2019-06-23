@@ -38,6 +38,7 @@ class SuppliersController extends AppController
         ]);
 
         $this->set('supplier', $supplier);
+        $this->set('aula','aula Cakephp');
     }
 
     /**
